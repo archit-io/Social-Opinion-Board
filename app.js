@@ -3,6 +3,7 @@ const dotenv = require('dotenv')
 const connectDB = require('./config/db')
 const morgan = require('morgan')
 const exphbs = require('express-handlebars')
+const path = require('path')
 
 //Load config
 dotenv.config({path: './config/config.env'})
